@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.header-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    text-align: right;
+    padding: 216px 230px 166px 845px;
+}
+
+.header-container h1{
+  font-size: 65px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.header-container p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.header-container button{
+  color: #005FAC;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 26px;
+  border: none;
+  border-radius: 5px;
+}

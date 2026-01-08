@@ -45,8 +45,9 @@
 #section-container{
   display: flex;
   gap: 87px;
-  max-width: 1600px;
-  margin: 131px 322px 130px 206px;
+  max-width: 1078px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 #section-container .content{
@@ -77,4 +78,67 @@
 
 #section-container .content ul i{
   color: #16D887;
+}
+
+#my-plans h2{
+  text-align: center;
+  margin: 130px 0 50px;
+  padding-left: 230px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#my-plans .my-plans-box{
+  display: flex;
+  justify-content: space-between;
+  gap: 86px;
+  max-width: 1141px;
+  margin: 0 auto 130px;
+  text-align: center;
+}
+
+#my-plans .my-plans-box h3{
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color:#151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#my-plans .my-plans-box p{
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#down-img-part{
+  max-width: 1140px;
+  margin: 0 auto 130px;
+  background-image: url(../images/gradient1.png), url(../images/watch.png);
+}
+
+#down-img-part .content{
+  max-width: 460px;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 65px;
+  padding-bottom: 60px;
+}
+
+#down-img-part .content h1{
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+#down-img-part .content button{
+  border: none;
+  color: #005FAC;
+  background-color: #FFFFFF;
+  padding: 20px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
 }

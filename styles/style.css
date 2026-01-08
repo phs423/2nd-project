@@ -41,3 +41,40 @@
   border: none;
   border-radius: 5px;
 }
+
+#section-container{
+  display: flex;
+  gap: 87px;
+  max-width: 1600px;
+  margin: 131px 322px 130px 206px;
+}
+
+#section-container .content{
+  padding: 240px 0 85px 0;
+  text-align: left;
+}
+
+#section-container .content h2{
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+#section-container .content p{
+  color: #444343;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+#section-container .content ul{
+  color: #444343;
+  font-size: 16px;
+  line-height: 26px;
+  list-style: none;
+}
+
+#section-container .content ul i{
+  color: #16D887;
+}
